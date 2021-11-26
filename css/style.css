@@ -16,6 +16,7 @@ p,
   line-height: 1.8;
   color: #555;
   font-weight: 400;
+  margin-bottom:25px;
 }
 .navbar {
   background: #95103b !important;
@@ -390,12 +391,25 @@ p,
     column-rule: 1px solid #ccc;
   }
 }
+@media(max-width:991px){
+  .__order .col-lg-6:first-child{
+    order: 1
+  }
+}
 .column__ {
   display: inline-block;
   padding-right:10px;
   padding-bottom:30px;
 }
 
+
+
+.title__news {
+  font-size: 2.1rem;
+margin-bottom: 30px;
+color: #95103b;
+font-weight: 600;
+}
 footer {
   margin-top: 20px;
   text-align: center;
